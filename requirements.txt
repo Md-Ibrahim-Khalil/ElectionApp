@@ -2,7 +2,19 @@ python3 manage.py makemigrations
 python3 manage.py migrate
 python3 manage.py createsuperuser
 python3 manage.py runserver
-API endpoints at http://127.0.0.1:8000/api/
+
+
+Check View in Admin panel:
+http://127.0.0.1:8000/admin/
+
+http://127.0.0.1:8000/admin/voterapp/voter/
+
+http://127.0.0.1:8000/admin/voterapp/pollingcenter/
+
+Check Api View: 
+http://127.0.0.1:8000/api/get_polling_center/123445/
+http://127.0.0.1:8000/api/update_data/1/
+
 
 
 appdirs==1.4.4
